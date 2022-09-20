@@ -1,0 +1,46 @@
+{
+    "id": 1,
+    "nom": "Bienvenue",
+    "description": "Hey ! Vous êtes finalement réveillez ?",
+    "pnjName": "Ralof",
+    "pngImg": "",
+    "bgImg": "",
+    "choix": {
+        "1": {
+            "reponse": "oui",
+            "influenceStats": {
+                "vie": 0,
+                "nourriture": 0,
+                "argent": 0,
+                "bon_mauvais": 0
+            },
+            "next": [
+                2
+            ]
+        },
+        "2": {
+            "reponse": "non",
+            "influenceStats": {
+                "vie": 0,
+                "nourriture": 0,
+                "argent": 0,
+                "bon_mauvais": 0
+            },
+            "next": [
+                2
+            ]
+        },
+        "3": {
+            "reponse": "Où suis-je ?",
+            "influenceStats": {
+                "vie": 0,
+                "nourriture": 0,
+                "argent": 0,
+                "bon_mauvais": 0
+            },
+            "next": [
+                2
+            ]
+        }
+    }
+}
