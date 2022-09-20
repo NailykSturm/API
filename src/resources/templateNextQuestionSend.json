@@ -3,8 +3,8 @@
     "nom": "Bienvenue",
     "description": "Hey ! Vous êtes finalement réveillez ?",
     "pnjName": "Ralof",
-    "pngImg": "./imgs/pnj/ralof.png",
-    "bgImg": "./imgs/backgrounds/default.png",
+    "pnjImg": "imgs/pnjs/ralof.png",
+    "bgImg": "imgs/backgrounds/default.png",
     "choix": {
         "1": {
             "reponse": "oui",
