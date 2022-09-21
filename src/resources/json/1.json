@@ -4,7 +4,7 @@
     "description": "Hey ! Vous êtes finalement réveillez ?",
     "pnjName": "Ralof",
     "pngImg": "imgs/pnjs/ralof.png",
-    "bgImg": "imgs/backgrounds/default.png",
+    "bgImg": "imgs/backgrounds/defaut.png",
     "choix": {
         "1": {
             "reponse": "oui",
