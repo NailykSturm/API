@@ -50,32 +50,4 @@ app.post("/", (req: any, res: any) => {
     }
 });
 
-app.post("/pnj", (req: any, res: any) => {
-    const pnjasked = req.body.pnjImg;
-    console.log("pnjasked = " + pnjasked);
-    if (pnjasked != undefined) {
-        const path = `${RESOURCES_PATH.slice(1)}${pnjasked}`;
-        console.log("full path = " + __dirname + path);
-        res.sendFile(__dirname + path);
-    } else {
-        var json = JSON.parse("{}");
-        json.error = "Rien n'a été envoyé! Comment suis-je censé répondre?";
-        res.send(json);
-    }
-});
-
-app.post("/background", (req: any, res: any) => {
-    const bgasked = req.body.bgImg;
-    console.log("bgasked = " + bgasked);
-    if (bgasked != undefined) {
-        const path = `${RESOURCES_PATH.slice(1)}${bgasked}`;
-        console.log("full path = " + __dirname + path);
-        res.sendFile(__dirname + path);
-    } else {
-        var json = JSON.parse("{}");
-        json.error = "Rien n'a été envoyé! Comment suis-je censé répondre?";
-        res.send(json);
-    }
-});
-
 app.listen(3000, () => { console.log("Server running on port 3000"); });
