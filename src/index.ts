@@ -1,4 +1,3 @@
-import { Console } from "console";
 import cors from "cors";
 import fs, { cp } from "fs";
 import * as path from 'path';
