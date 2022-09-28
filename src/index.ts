@@ -1,11 +1,7 @@
-/*
 import cors from "cors";
-import fs, { cp } from "fs";
+import fs from "fs";
 import * as path from 'path';
-*/
-const cors = require("cors");
-const {fs, cp } = require("fs");
-const path = require('path');
+
 const RESOURCES_PATH = './resources/';
 
 function readJson(pathFile : string) {

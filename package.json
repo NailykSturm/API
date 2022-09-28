@@ -2,11 +2,11 @@
   "name": "api",
   "version": "1.0.0",
   "description": "API du Projet d'info701 - Serveur qui renvoie des évènements en fonction du chemin fait par l'utilisatuer",
-  "main": "index.ts",
+  
   "scripts": {
     "dev": "nodemon --watch src -e js,ts,json --exec \"ts-node src/index.ts\"",
     "build": "tsup src/index.ts --format cjs --clean",
-    "start": "node src/index.ts"
+    "start": "ts-node src/index.ts"
   },
   "author": "Kylian BACHELET (@NailykSturm)",
   "license": "ISC",
