@@ -1,9 +1,14 @@
+/*
 import cors from "cors";
 import fs from "fs";
 import * as path from 'path';
+*/
+const cors = require("cors");
+const {fs, cp } = require("fs");
+const path = require('path');
 const RESOURCES_PATH = './resources/';
 
-function readJson(pathFile: string) {
+function readJson(pathFile : string) {
     const encoding = 'utf8';
     var file = fs.readFileSync(path.join(__dirname, pathFile), encoding);
     return JSON.parse(file);
