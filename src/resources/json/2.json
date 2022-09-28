@@ -3,8 +3,8 @@
     "nom": "Bienvenue",
     "description": "Bien ! Vous allez vous y faire !",
     "pnjName": "Ralof",
-    "pngImg": "imgs/pnjs/ralof.png",
-    "bgImg": "imgs/backgrounds/defaut.png",
+    "pngImg": "ralof.png",
+    "bgImg": "defaut.png",
     "choix": {
         "1": {
             "reponse": "oui",
